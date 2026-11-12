@@ -1,21 +1,14 @@
-# The Rust Programming Language
+# The CeeSafe Programming Language
 
-![Build Status](https://github.com/rust-lang/book/workflows/CI/badge.svg)
+![Build Status](https://github.com/vkuttyp/book/workflows/CI/badge.svg)
 
-This repository contains the source of "The Rust Programming Language" book.
+This repository contains the source of "The CeeSafe Programming Language" book — an adaptation of the Rust book for CeeSafe.
 
-[The book is available in dead-tree form from No Starch Press][nostarch].
+CeeSafe is a memory-safe systems programming language that compiles to portable C11. It combines Rust-inspired ownership and borrowing with the simplicity of C compilation and interoperability.
 
-[nostarch]: https://nostarch.com/rust-programming-language-2nd-edition
+You can read the CeeSafe book online at the GitHub Pages site for this fork.
 
-You can also read the book for free online. Please see the book as shipped with
-the latest [stable], [beta], or [nightly] Rust releases. Be aware that issues
-in those versions may have been fixed in this repository already, as those
-releases are updated less frequently.
-
-[stable]: https://doc.rust-lang.org/stable/book/
-[beta]: https://doc.rust-lang.org/beta/book/
-[nightly]: https://doc.rust-lang.org/nightly/book/
+**Note:** This is a comprehensive adaptation of the official Rust book to teach CeeSafe concepts. For the original Rust book, see [rust-lang/book](https://github.com/rust-lang/book).
 
 See the [releases] to download just the code of all the code listings that appear in the book.
 

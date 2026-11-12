@@ -1,14 +1,14 @@
-# Sync any changes to this *other than where explicitly specified* with the copy
-# in `nostarch/book.toml`!
+# CeeSafe Book Configuration
 
 [book]
-title = "The Rust Programming Language"
-authors = ["Steve Klabnik", "Carol Nichols", "Chris Krycho", "Contributions from the Rust Community"]
+title = "The CeeSafe Programming Language"
+authors = ["Steve Klabnik", "Carol Nichols", "Chris Krycho", "Adapted for CeeSafe by Copilot", "Contributions from the Rust & CeeSafe Communities"]
+description = "A comprehensive guide to CeeSafe, a memory-safe systems programming language that compiles to portable C11."
 
 [output.html]
 additional-css = ["ferris.css", "theme/2018-edition.css", "theme/semantic-notes.css", "theme/listing.css"]
 additional-js = ["ferris.js"]
-git-repository-url = "https://github.com/rust-lang/book"
+git-repository-url = "https://github.com/vkuttyp/book"
 
 [output.html.search]
 use-boolean-and = true
